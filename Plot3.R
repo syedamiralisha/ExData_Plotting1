@@ -1,6 +1,6 @@
 
 #reading data into R
-elet<- read.table("/Users/amir/Learning/MOOC_John Hopkins/Exploratory Data Analysis/Prog Assign_1/household_power_consumption.txt", sep=";",nrows= 2075260, header=TRUE, quote= "", strip.white=TRUE, stringsAsFactors = FALSE, na.strings= "?")
+elet<- read.table("/Users/amir/desktop/household_power_consumption.txt", sep=";",nrows= 2075260, header=TRUE, quote= "", strip.white=TRUE, stringsAsFactors = FALSE, na.strings= "?")
 
 # Subsetting the full data to obtain the data related to two days: 
 sub<- subset(elet, (elet$Date == "1/2/2007" | elet$Date== "2/2/2007")) 
