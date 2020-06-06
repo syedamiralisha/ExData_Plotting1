@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@syedamiralisha 
-karthikmca39
-/
-ExData_Plotting-1
-forked from ma-t/ExData_Plotting
-1
-01
- Code
- Pull requests 0 Actions
- Projects 0
- Wiki
- Security 0
- Insights
-ExData_Plotting-1/Plot4.R
-@karthikmca39 karthikmca39 Update Plot4.R
-63b287c on Jun 24, 2018
-29 lines (22 sloc)  1.55 KB
-  
-# Coursera Exploratory Data Analysis
-# Plot4.R (Assignment 1)
-
-# rm(list=ls())
 
 #reading data into R
 elet<- read.table("/Users/amir/desktop/household_power_consumption.txt", sep=";",nrows= 2075260, header=TRUE, quote= "", strip.white=TRUE, stringsAsFactors = FALSE, na.strings= "?")
